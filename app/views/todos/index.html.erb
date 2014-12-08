@@ -1,0 +1,10 @@
+<title> Shared Todo App </title>
+
+<h1> Shared Todo App </h1>
+
+<p> All your todos are here</p>
+
+<ul><% @todo_item.each do |t| %> 
+<li> <%= t.todo_item %> , String Length = <%= t.todo_item.length %></li>
+<% end %>
+</ul>
